@@ -1,0 +1,40 @@
+.ttt ul {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    
+}
+
+li {
+    border: solid black 1px;
+    height: 100px;
+    background-color: gray;
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+.o {
+    /* content: 'O';
+    color: blue; */
+    background-color: white;
+}
+.o:after {
+    content: 'O';
+    font-size: 75px;
+    color:blue;
+}
+.x {
+    background-color: white;
+}
+.x:after{
+    content: 'X';
+    font-size: 75px;
+    color: red;
+}
+
+/* .ttt {
+    display: flex;
+    justify-content: center;
+} */
+
